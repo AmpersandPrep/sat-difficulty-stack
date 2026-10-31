@@ -1,0 +1,181 @@
+{
+ "batch": "001",
+ "model": "muse-wonder-1.0",
+ "note": "Raw API responses for step one's fresh-agent baseline, batch 001 (first 50 items of the shuffled blind order). Predictions are keyed by within-batch number only. No question text, no question IDs, and no College Board labels are included. attempt_1_full_batch returned no predictions (the model spent its whole output budget on reasoning); the batch was rerun in chunks of 10 per the failed-batch rule, never patched.",
+ "attempt_1_full_batch": {
+  "id": "chatcmpl-01a18f7d-5c0e-74e7-9f2c-bb680ab80dc8",
+  "choices": [
+   {
+    "finish_reason": "length",
+    "index": 0,
+    "message": {
+     "content": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "logprobs": null
+   }
+  ],
+  "created": 1793408719,
+  "model": "muse-wonder-1.0",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 16000,
+   "prompt_tokens": 8256,
+   "total_tokens": 24256,
+   "completion_tokens_details": {
+    "reasoning_tokens": 15998
+   },
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  }
+ },
+ "chunks": [
+  {
+   "id": "chatcmpl-01a18f7e-7c84-7607-a835-ae2dccc9b6da",
+   "choices": [
+    {
+     "finish_reason": "stop",
+     "index": 0,
+     "message": {
+      "content": "[{\"n\": 1, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Lines, angles, and triangles\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 2, \"domain\": \"Advanced Math\", \"skill\": \"Nonlinear functions\", \"rating\": \"Medium\", \"answer\": \"B\"}, {\"n\": 3, \"domain\": \"Craft and Structure\", \"skill\": \"Cross-Text Connections\", \"rating\": \"Medium\", \"answer\": \"D\"}, {\"n\": 4, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Area and volume\", \"rating\": \"Easy\", \"answer\": \"A\"}, {\"n\": 5, \"domain\": \"Standard English Conventions\", \"skill\": \"Boundaries\", \"rating\": \"Medium\", \"answer\": \"A\"}, {\"n\": 6, \"domain\": \"Algebra\", \"skill\": \"Linear inequalities in one or two variables\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 7, \"domain\": \"Algebra\", \"skill\": \"Linear functions\", \"rating\": \"Easy\", \"answer\": \"A\"}, {\"n\": 8, \"domain\": \"Algebra\", \"skill\": \"Linear functions\", \"rating\": \"Easy\", \"answer\": \"A\"}, {\"n\": 9, \"domain\": \"Problem-Solving and Data Analysis\", \"skill\": \"One-variable data: Distributions and measures of center and spread\", \"rating\": \"Hard\", \"answer\": \"B\"}, {\"n\": 10, \"domain\": \"Problem-Solving and Data Analysis\", \"skill\": \"Probability and conditional probability\", \"rating\": \"Medium\", \"answer\": \"0.7\"}]",
+      "refusal": null,
+      "role": "assistant"
+     },
+     "logprobs": null
+    }
+   ],
+   "created": 1793408793,
+   "model": "muse-wonder-1.0",
+   "object": "chat.completion",
+   "usage": {
+    "completion_tokens": 5771,
+    "prompt_tokens": 1949,
+    "total_tokens": 7720,
+    "completion_tokens_details": {
+     "reasoning_tokens": 5406
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "id": "chatcmpl-01a18f7f-edee-77bd-afaa-145df6e600bc",
+   "choices": [
+    {
+     "finish_reason": "stop",
+     "index": 0,
+     "message": {
+      "content": "[{\"n\": 11, \"domain\": \"Algebra\", \"skill\": \"Linear equations in one variable\", \"rating\": \"Easy\", \"answer\": \"130\"}, {\"n\": 12, \"domain\": \"Advanced Math\", \"skill\": \"Nonlinear equations in one variable and systems of equations in two variables\", \"rating\": \"Easy\", \"answer\": \"A\"}, {\"n\": 13, \"domain\": \"Algebra\", \"skill\": \"Linear functions\", \"rating\": \"Easy\", \"answer\": \"D\"}, {\"n\": 14, \"domain\": \"Craft and Structure\", \"skill\": \"Words in Context\", \"rating\": \"Medium\", \"answer\": \"B\"}, {\"n\": 15, \"domain\": \"Information and Ideas\", \"skill\": \"Command of Evidence\", \"rating\": \"Easy\", \"answer\": \"B\"}, {\"n\": 16, \"domain\": \"Algebra\", \"skill\": \"Linear inequalities in one or two variables\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 17, \"domain\": \"Craft and Structure\", \"skill\": \"Words in Context\", \"rating\": \"Easy\", \"answer\": \"B\"}, {\"n\": 18, \"domain\": \"Algebra\", \"skill\": \"Linear functions\", \"rating\": \"Easy\", \"answer\": \"D\"}, {\"n\": 19, \"domain\": \"Standard English Conventions\", \"skill\": \"Boundaries\", \"rating\": \"Medium\", \"answer\": \"C\"}, {\"n\": 20, \"domain\": \"Information and Ideas\", \"skill\": \"Central Ideas and Details\", \"rating\": \"Medium\", \"answer\": \"A\"}]",
+      "refusal": null,
+      "role": "assistant"
+     },
+     "logprobs": null
+    }
+   ],
+   "created": 1793408888,
+   "model": "muse-wonder-1.0",
+   "object": "chat.completion",
+   "usage": {
+    "completion_tokens": 9979,
+    "prompt_tokens": 1699,
+    "total_tokens": 11678,
+    "completion_tokens_details": {
+     "reasoning_tokens": 9624
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "id": "chatcmpl-01a18f80-9ce0-7037-8c73-c2acf57ec3e6",
+   "choices": [
+    {
+     "finish_reason": "stop",
+     "index": 0,
+     "message": {
+      "content": "[{\"n\": 21, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Right triangles and trigonometry\", \"rating\": \"Medium\", \"answer\": \"C\"}, {\"n\": 22, \"domain\": \"Craft and Structure\", \"skill\": \"Words in Context\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 23, \"domain\": \"Algebra\", \"skill\": \"Linear functions\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 24, \"domain\": \"Expression of Ideas\", \"skill\": \"Rhetorical Synthesis\", \"rating\": \"Medium\", \"answer\": \"B\"}, {\"n\": 25, \"domain\": \"Information and Ideas\", \"skill\": \"Command of Evidence\", \"rating\": \"Medium\", \"answer\": \"C\"}, {\"n\": 26, \"domain\": \"Algebra\", \"skill\": \"Systems of two linear equations in two variables\", \"rating\": \"Medium\", \"answer\": \"B\"}, {\"n\": 27, \"domain\": \"Standard English Conventions\", \"skill\": \"Boundaries\", \"rating\": \"Medium\", \"answer\": \"D\"}, {\"n\": 28, \"domain\": \"Information and Ideas\", \"skill\": \"Inferences\", \"rating\": \"Hard\", \"answer\": \"D\"}, {\"n\": 29, \"domain\": \"Standard English Conventions\", \"skill\": \"Form, Structure, and Sense\", \"rating\": \"Medium\", \"answer\": \"D\"}, {\"n\": 30, \"domain\": \"Advanced Math\", \"skill\": \"Nonlinear functions\", \"rating\": \"Easy\", \"answer\": \"C\"}]",
+      "refusal": null,
+      "role": "assistant"
+     },
+     "logprobs": null
+    }
+   ],
+   "created": 1793408932,
+   "model": "muse-wonder-1.0",
+   "object": "chat.completion",
+   "usage": {
+    "completion_tokens": 6657,
+    "prompt_tokens": 2114,
+    "total_tokens": 8771,
+    "completion_tokens_details": {
+     "reasoning_tokens": 6304
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "id": "chatcmpl-01a18f81-74f7-7706-b7d1-0936fea52c8a",
+   "choices": [
+    {
+     "finish_reason": "stop",
+     "index": 0,
+     "message": {
+      "content": "[{\"n\": 31, \"domain\": \"Standard English Conventions\", \"skill\": \"Boundaries\", \"rating\": \"Medium\", \"answer\": \"B\"}, {\"n\": 32, \"domain\": \"Craft and Structure\", \"skill\": \"Text Structure and Purpose\", \"rating\": \"Easy\", \"answer\": \"B\"}, {\"n\": 33, \"domain\": \"Craft and Structure\", \"skill\": \"Words in Context\", \"rating\": \"Medium\", \"answer\": \"D\"}, {\"n\": 34, \"domain\": \"Information and Ideas\", \"skill\": \"Command of Evidence\", \"rating\": \"Medium\", \"answer\": \"D\"}, {\"n\": 35, \"domain\": \"Algebra\", \"skill\": \"Linear equations in one variable\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 36, \"domain\": \"Information and Ideas\", \"skill\": \"Command of Evidence\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 37, \"domain\": \"Standard English Conventions\", \"skill\": \"Form, Structure, and Sense\", \"rating\": \"Medium\", \"answer\": \"A\"}, {\"n\": 38, \"domain\": \"Information and Ideas\", \"skill\": \"Central Ideas and Details\", \"rating\": \"Easy\", \"answer\": \"A\"}, {\"n\": 39, \"domain\": \"Advanced Math\", \"skill\": \"Nonlinear equations in one variable and systems of equations in two variables\", \"rating\": \"Medium\", \"answer\": \"-1\"}, {\"n\": 40, \"domain\": \"Expression of Ideas\", \"skill\": \"Transitions\", \"rating\": \"Easy\", \"answer\": \"A\"}]",
+      "refusal": null,
+      "role": "assistant"
+     },
+     "logprobs": null
+    }
+   ],
+   "created": 1793408988,
+   "model": "muse-wonder-1.0",
+   "object": "chat.completion",
+   "usage": {
+    "completion_tokens": 6532,
+    "prompt_tokens": 2002,
+    "total_tokens": 8534,
+    "completion_tokens_details": {
+     "reasoning_tokens": 6170
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "id": "chatcmpl-01a18f81-f807-776e-86b4-2728800fcf5f",
+   "choices": [
+    {
+     "finish_reason": "stop",
+     "index": 0,
+     "message": {
+      "content": "[{\"n\": 41, \"domain\": \"Information and Ideas\", \"skill\": \"Inferences\", \"rating\": \"Medium\", \"answer\": \"B\"}, {\"n\": 42, \"domain\": \"Algebra\", \"skill\": \"Linear functions\", \"rating\": \"Easy\", \"answer\": \"9\"}, {\"n\": 43, \"domain\": \"Expression of Ideas\", \"skill\": \"Rhetorical Synthesis\", \"rating\": \"Easy\", \"answer\": \"A\"}, {\"n\": 44, \"domain\": \"Expression of Ideas\", \"skill\": \"Transitions\", \"rating\": \"Easy\", \"answer\": \"B\"}, {\"n\": 45, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Lines, angles, and triangles\", \"rating\": \"Medium\", \"answer\": \"A\"}, {\"n\": 46, \"domain\": \"Problem-Solving and Data Analysis\", \"skill\": \"Two-variable data: Models and scatterplots\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 47, \"domain\": \"Expression of Ideas\", \"skill\": \"Transitions\", \"rating\": \"Medium\", \"answer\": \"A\"}, {\"n\": 48, \"domain\": \"Standard English Conventions\", \"skill\": \"Boundaries\", \"rating\": \"Easy\", \"answer\": \"B\"}, {\"n\": 49, \"domain\": \"Craft and Structure\", \"skill\": \"Cross-Text Connections\", \"rating\": \"Hard\", \"answer\": \"B\"}, {\"n\": 50, \"domain\": \"Algebra\", \"skill\": \"Systems of two linear equations in two variables\", \"rating\": \"Medium\", \"answer\": \"B\"}]",
+      "refusal": null,
+      "role": "assistant"
+     },
+     "logprobs": null
+    }
+   ],
+   "created": 1793409021,
+   "model": "muse-wonder-1.0",
+   "object": "chat.completion",
+   "usage": {
+    "completion_tokens": 4547,
+    "prompt_tokens": 2130,
+    "total_tokens": 6677,
+    "completion_tokens_details": {
+     "reasoning_tokens": 4189
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   }
+  }
+ ]
+}
