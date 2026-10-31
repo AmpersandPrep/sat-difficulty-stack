@@ -1,0 +1,491 @@
+{
+ "batch": "076",
+ "model": "muse-wonder-1.0",
+ "note": "COMPLETE. Items 1-16 and 18-20 were collected as text under the standard conditions. Item 17 never produced an answer as text: it consumed the full output budget on reasoning at the standard 16,000-token cap across two failed batch runs and again at a raised 64,000-token cap (63,998 reasoning tokens, zero content). At Lydia's direction it was then collected from an image of the printed question: source PDF page 715 (math Easy export) cropped to the question region only (the page's metadata table, which prints domain/skill/difficulty, and its Correct Answer/rationale block are outside the crop). Same model, same instructions, same 16,000-token cap; the only difference for this one item is input modality, disclosed here. All attempts, failed and successful, are in this record.",
+ "failed_run_1": {
+  "batch": "076",
+  "model": "muse-wonder-1.0",
+  "note": "FAILED batch: one or more chunks never returned a usable response after retries and a smaller rerun. No predictions were written and nothing was patched by hand.",
+  "chunks": [
+   {
+    "range": [
+     1,
+     10
+    ],
+    "attempts": [
+     {
+      "id": "chatcmpl-01a18fc3-6f7d-77e1-8282-0cffd02e89d4",
+      "choices": [
+       {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+         "content": "[{\"n\": 1, \"domain\": \"Algebra\", \"skill\": \"Linear equations in one variable\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 2, \"domain\": \"Problem-Solving and Data Analysis\", \"skill\": \"Percentages\", \"rating\": \"Medium\", \"answer\": \"0.54\"}, {\"n\": 3, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Area and volume\", \"rating\": \"Easy\", \"answer\": \"1800\"}, {\"n\": 4, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Lines, angles, and triangles\", \"rating\": \"Medium\", \"answer\": \"D\"}, {\"n\": 5, \"domain\": \"Advanced Math\", \"skill\": \"Nonlinear functions\", \"rating\": \"Medium\", \"answer\": \"C\"}, {\"n\": 6, \"domain\": \"Algebra\", \"skill\": \"Systems of two linear equations in two variables\", \"rating\": \"Easy\", \"answer\": \"A\"}, {\"n\": 7, \"domain\": \"Expression of Ideas\", \"skill\": \"Rhetorical Synthesis\", \"rating\": \"Medium\", \"answer\": \"C\"}, {\"n\": 8, \"domain\": \"Algebra\", \"skill\": \"Systems of two linear equations in two variables\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 9, \"domain\": \"Standard English Conventions\", \"skill\": \"Boundaries\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 10, \"domain\": \"Expression of Ideas\", \"skill\": \"Rhetorical Synthesis\", \"rating\": \"Easy\", \"answer\": \"B\"}]",
+         "refusal": null,
+         "role": "assistant"
+        },
+        "logprobs": null
+       }
+      ],
+      "created": 1793413312,
+      "model": "muse-wonder-1.0",
+      "object": "chat.completion",
+      "usage": {
+       "completion_tokens": 4981,
+       "prompt_tokens": 1599,
+       "total_tokens": 6580,
+       "completion_tokens_details": {
+        "reasoning_tokens": 4617
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 358
+       }
+      }
+     }
+    ]
+   },
+   {
+    "range": [
+     11,
+     20
+    ],
+    "attempts": [
+     {
+      "id": "chatcmpl-01a18fc5-0f9d-75e4-99f5-6ac9be011166",
+      "choices": [
+       {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+         "content": null,
+         "refusal": null,
+         "role": "assistant"
+        },
+        "logprobs": null
+       }
+      ],
+      "created": 1793413418,
+      "model": "muse-wonder-1.0",
+      "object": "chat.completion",
+      "usage": {
+       "completion_tokens": 16000,
+       "prompt_tokens": 2142,
+       "total_tokens": 18142,
+       "completion_tokens_details": {
+        "reasoning_tokens": 15998
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 358
+       }
+      }
+     },
+     {
+      "id": "chatcmpl-01a18fc6-d1dd-7170-8095-a788a7e9b7bd",
+      "choices": [
+       {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+         "content": null,
+         "refusal": null,
+         "role": "assistant"
+        },
+        "logprobs": null
+       }
+      ],
+      "created": 1793413534,
+      "model": "muse-wonder-1.0",
+      "object": "chat.completion",
+      "usage": {
+       "completion_tokens": 16000,
+       "prompt_tokens": 2142,
+       "total_tokens": 18142,
+       "completion_tokens_details": {
+        "reasoning_tokens": 15998
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      }
+     },
+     {
+      "id": "chatcmpl-01a18fc8-8464-7084-a0bf-239c9f45f410",
+      "choices": [
+       {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+         "content": null,
+         "refusal": null,
+         "role": "assistant"
+        },
+        "logprobs": null
+       }
+      ],
+      "created": 1793413645,
+      "model": "muse-wonder-1.0",
+      "object": "chat.completion",
+      "usage": {
+       "completion_tokens": 16000,
+       "prompt_tokens": 2142,
+       "total_tokens": 18142,
+       "completion_tokens_details": {
+        "reasoning_tokens": 15998
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 2022
+       }
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "failed_run_2": {
+  "batch": "076",
+  "model": "muse-wonder-1.0",
+  "note": "FAILED batch: one or more chunks never returned a usable response after retries and a smaller rerun. No predictions were written and nothing was patched by hand.",
+  "chunks": [
+   {
+    "range": [
+     1,
+     10
+    ],
+    "attempts": [
+     {
+      "id": "chatcmpl-01a18fcf-2b53-7658-ae6e-9663a50ebf5e",
+      "choices": [
+       {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+         "content": "[{\"n\": 1, \"domain\": \"Algebra\", \"skill\": \"Linear equations in one variable\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 2, \"domain\": \"Problem-Solving and Data Analysis\", \"skill\": \"Percentages\", \"rating\": \"Medium\", \"answer\": \"0.54\"}, {\"n\": 3, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Area and volume\", \"rating\": \"Easy\", \"answer\": \"1800\"}, {\"n\": 4, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Lines, angles, and triangles\", \"rating\": \"Medium\", \"answer\": \"D\"}, {\"n\": 5, \"domain\": \"Advanced Math\", \"skill\": \"Nonlinear functions\", \"rating\": \"Medium\", \"answer\": \"C\"}, {\"n\": 6, \"domain\": \"Algebra\", \"skill\": \"Systems of two linear equations in two variables\", \"rating\": \"Easy\", \"answer\": \"A\"}, {\"n\": 7, \"domain\": \"Expression of Ideas\", \"skill\": \"Rhetorical Synthesis\", \"rating\": \"Medium\", \"answer\": \"C\"}, {\"n\": 8, \"domain\": \"Algebra\", \"skill\": \"Systems of two linear equations in two variables\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 9, \"domain\": \"Standard English Conventions\", \"skill\": \"Boundaries\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 10, \"domain\": \"Expression of Ideas\", \"skill\": \"Rhetorical Synthesis\", \"rating\": \"Easy\", \"answer\": \"B\"}]",
+         "refusal": null,
+         "role": "assistant"
+        },
+        "logprobs": null
+       }
+      ],
+      "created": 1793414081,
+      "model": "muse-wonder-1.0",
+      "object": "chat.completion",
+      "usage": {
+       "completion_tokens": 4267,
+       "prompt_tokens": 1599,
+       "total_tokens": 5866,
+       "completion_tokens_details": {
+        "reasoning_tokens": 3903
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      }
+     }
+    ]
+   },
+   {
+    "range": [
+     11,
+     20
+    ],
+    "attempts": [
+     {
+      "id": "chatcmpl-01a18fd0-e78c-70d2-b55a-68b9308295d9",
+      "choices": [
+       {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+         "content": null,
+         "refusal": null,
+         "role": "assistant"
+        },
+        "logprobs": null
+       }
+      ],
+      "created": 1793414194,
+      "model": "muse-wonder-1.0",
+      "object": "chat.completion",
+      "usage": {
+       "completion_tokens": 16000,
+       "prompt_tokens": 2142,
+       "total_tokens": 18142,
+       "completion_tokens_details": {
+        "reasoning_tokens": 15998
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      }
+     },
+     {
+      "id": "chatcmpl-01a18fd2-e05d-72cf-bcd9-8770479544e5",
+      "choices": [
+       {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+         "content": null,
+         "refusal": null,
+         "role": "assistant"
+        },
+        "logprobs": null
+       }
+      ],
+      "created": 1793414324,
+      "model": "muse-wonder-1.0",
+      "object": "chat.completion",
+      "usage": {
+       "completion_tokens": 16000,
+       "prompt_tokens": 2142,
+       "total_tokens": 18142,
+       "completion_tokens_details": {
+        "reasoning_tokens": 15998
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      }
+     },
+     {
+      "id": "chatcmpl-01a18fd4-8b30-71f7-bc20-2e0d15ff6fff",
+      "choices": [
+       {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+         "content": null,
+         "refusal": null,
+         "role": "assistant"
+        },
+        "logprobs": null
+       }
+      ],
+      "created": 1793414433,
+      "model": "muse-wonder-1.0",
+      "object": "chat.completion",
+      "usage": {
+       "completion_tokens": 16000,
+       "prompt_tokens": 2142,
+       "total_tokens": 18142,
+       "completion_tokens_details": {
+        "reasoning_tokens": 15998
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 358
+       }
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "item_17_cap_raised_text_attempt": {
+  "id": "chatcmpl-01a18fed-9344-7052-8c70-f42a523ec522",
+  "choices": [
+   {
+    "finish_reason": "length",
+    "index": 0,
+    "message": {
+     "content": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "logprobs": null
+   }
+  ],
+  "created": 1793416073,
+  "model": "muse-wonder-1.0",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 64000,
+   "prompt_tokens": 660,
+   "total_tokens": 64660,
+   "completion_tokens_details": {
+    "reasoning_tokens": 63998
+   },
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  }
+ },
+ "item_17_image_attempt": {
+  "id": "chatcmpl-01a18ffd-5284-70f4-9aa3-c51865f14386",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "[{\"n\": 17, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Lines, angles, and triangles\", \"rating\": \"Medium\", \"answer\": \"A\"}]",
+     "refusal": null,
+     "role": "assistant"
+    },
+    "logprobs": null
+   }
+  ],
+  "created": 1793417105,
+  "model": "muse-wonder-1.0",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 11520,
+   "prompt_tokens": 1252,
+   "total_tokens": 12772,
+   "completion_tokens_details": {
+    "reasoning_tokens": 11473
+   },
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  }
+ },
+ "chunks": [
+  {
+   "range": [
+    1,
+    10
+   ],
+   "attempts": [
+    {
+     "id": "chatcmpl-01a18fcf-2b53-7658-ae6e-9663a50ebf5e",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "message": {
+        "content": "[{\"n\": 1, \"domain\": \"Algebra\", \"skill\": \"Linear equations in one variable\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 2, \"domain\": \"Problem-Solving and Data Analysis\", \"skill\": \"Percentages\", \"rating\": \"Medium\", \"answer\": \"0.54\"}, {\"n\": 3, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Area and volume\", \"rating\": \"Easy\", \"answer\": \"1800\"}, {\"n\": 4, \"domain\": \"Geometry and Trigonometry\", \"skill\": \"Lines, angles, and triangles\", \"rating\": \"Medium\", \"answer\": \"D\"}, {\"n\": 5, \"domain\": \"Advanced Math\", \"skill\": \"Nonlinear functions\", \"rating\": \"Medium\", \"answer\": \"C\"}, {\"n\": 6, \"domain\": \"Algebra\", \"skill\": \"Systems of two linear equations in two variables\", \"rating\": \"Easy\", \"answer\": \"A\"}, {\"n\": 7, \"domain\": \"Expression of Ideas\", \"skill\": \"Rhetorical Synthesis\", \"rating\": \"Medium\", \"answer\": \"C\"}, {\"n\": 8, \"domain\": \"Algebra\", \"skill\": \"Systems of two linear equations in two variables\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 9, \"domain\": \"Standard English Conventions\", \"skill\": \"Boundaries\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 10, \"domain\": \"Expression of Ideas\", \"skill\": \"Rhetorical Synthesis\", \"rating\": \"Easy\", \"answer\": \"B\"}]",
+        "refusal": null,
+        "role": "assistant"
+       },
+       "logprobs": null
+      }
+     ],
+     "created": 1793414081,
+     "model": "muse-wonder-1.0",
+     "object": "chat.completion",
+     "usage": {
+      "completion_tokens": 4267,
+      "prompt_tokens": 1599,
+      "total_tokens": 5866,
+      "completion_tokens_details": {
+       "reasoning_tokens": 3903
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "range": [
+    11,
+    15
+   ],
+   "attempts": [
+    {
+     "id": "chatcmpl-01a18fd4-c1cb-72c9-9152-a1f3f2c0d7d6",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "message": {
+        "content": "[{\"n\": 11, \"domain\": \"Craft and Structure\", \"skill\": \"Text Structure and Purpose\", \"rating\": \"Easy\", \"answer\": \"C\"}, {\"n\": 12, \"domain\": \"Information and Ideas\", \"skill\": \"Inferences\", \"rating\": \"Medium\", \"answer\": \"A\"}, {\"n\": 13, \"domain\": \"Information and Ideas\", \"skill\": \"Command of Evidence\", \"rating\": \"Easy\", \"answer\": \"B\"}, {\"n\": 14, \"domain\": \"Advanced Math\", \"skill\": \"Nonlinear equations in one variable and systems of equations in two variables\", \"rating\": \"Easy\", \"answer\": \"B\"}, {\"n\": 15, \"domain\": \"Problem-Solving and Data Analysis\", \"skill\": \"Percentages\", \"rating\": \"Hard\", \"answer\": \"D\"}]",
+        "refusal": null,
+        "role": "assistant"
+       },
+       "logprobs": null
+      }
+     ],
+     "created": 1793414447,
+     "model": "muse-wonder-1.0",
+     "object": "chat.completion",
+     "usage": {
+      "completion_tokens": 2874,
+      "prompt_tokens": 1488,
+      "total_tokens": 4362,
+      "completion_tokens_details": {
+       "reasoning_tokens": 2684
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 358
+      }
+     }
+    }
+   ]
+  },
+  {
+   "range": [
+    16,
+    16
+   ],
+   "attempts": [
+    {
+     "id": "chatcmpl-01a18fdf-8c5c-7061-b0de-408aff978866",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "message": {
+        "content": "[{\"n\": 16, \"domain\": \"Standard English Conventions\", \"skill\": \"Boundaries\", \"rating\": \"Medium\", \"answer\": \"D\"}]",
+        "refusal": null,
+        "role": "assistant"
+       },
+       "logprobs": null
+      }
+     ],
+     "created": 1793415154,
+     "model": "muse-wonder-1.0",
+     "object": "chat.completion",
+     "usage": {
+      "completion_tokens": 1231,
+      "prompt_tokens": 522,
+      "total_tokens": 1753,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1187
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "range": [
+    18,
+    20
+   ],
+   "attempts": [
+    {
+     "id": "chatcmpl-01a18fe5-686c-7398-bce5-039c6f891ccb",
+     "choices": [
+      {
+       "finish_reason": "stop",
+       "index": 0,
+       "message": {
+        "content": "[{\"n\": 18, \"domain\": \"Craft and Structure\", \"skill\": \"Words in Context\", \"rating\": \"Medium\", \"answer\": \"A\"}, {\"n\": 19, \"domain\": \"Algebra\", \"skill\": \"Linear functions\", \"rating\": \"Easy\", \"answer\": \"39\"}, {\"n\": 20, \"domain\": \"Craft and Structure\", \"skill\": \"Words in Context\", \"rating\": \"Easy\", \"answer\": \"D\"}]",
+        "refusal": null,
+        "role": "assistant"
+       },
+       "logprobs": null
+      }
+     ],
+     "created": 1793415538,
+     "model": "muse-wonder-1.0",
+     "object": "chat.completion",
+     "usage": {
+      "completion_tokens": 1654,
+      "prompt_tokens": 696,
+      "total_tokens": 2350,
+      "completion_tokens_details": {
+       "reasoning_tokens": 1545
+      },
+      "prompt_tokens_details": {
+       "cached_tokens": 0
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
