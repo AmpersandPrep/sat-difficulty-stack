@@ -1,0 +1,119 @@
+{
+ "1": {
+  "id": "da2e9202",
+  "rating": "Easy",
+  "count_rating": "Easy",
+  "cb": "Easy",
+  "correct": true,
+  "tokens": {
+   "prompt": 8256,
+   "completion": 6173
+  },
+  "cost_usd": 0.1565,
+  "error": null
+ },
+ "2": {
+  "id": "6e06a0a7",
+  "rating": "Easy",
+  "count_rating": "Easy",
+  "cb": "Easy",
+  "correct": true,
+  "tokens": {
+   "prompt": 7335,
+   "completion": 6364
+  },
+  "cost_usd": 0.1566,
+  "error": null
+ },
+ "3": {
+  "id": "8622320e",
+  "rating": "Easy",
+  "count_rating": "Easy",
+  "cb": "Medium",
+  "correct": false,
+  "tokens": {
+   "prompt": 9031,
+   "completion": 3976
+  },
+  "cost_usd": 0.1156,
+  "error": null
+ },
+ "4": {
+  "id": "029c2dc2",
+  "rating": "Easy",
+  "count_rating": "Easy",
+  "cb": "Easy",
+  "correct": true,
+  "tokens": {
+   "prompt": 30982,
+   "completion": 18377
+  },
+  "cost_usd": 0.4915,
+  "error": null
+ },
+ "5": {
+  "id": "3f236877",
+  "rating": "Hard",
+  "count_rating": "Hard",
+  "cb": "Hard",
+  "correct": true,
+  "tokens": {
+   "prompt": 42178,
+   "completion": 14208
+  },
+  "cost_usd": 0.4529,
+  "error": "parser missed the trailing semicolon in \"RATING: Hard;\"; rating recovered from the transcript, where all three turns end COUNT RATING: Hard / RATING: Hard"
+ },
+ "6": {
+  "id": "8391a002",
+  "rating": "Hard",
+  "count_rating": "Hard",
+  "cb": "Hard",
+  "correct": true,
+  "tokens": {
+   "prompt": 13676,
+   "completion": 5892
+  },
+  "cost_usd": 0.1725,
+  "error": null
+ },
+ "7": {
+  "id": "f7dbde16",
+  "rating": "Hard",
+  "count_rating": "Hard",
+  "cb": "Hard",
+  "correct": true,
+  "tokens": {
+   "prompt": 8981,
+   "completion": 5379
+  },
+  "cost_usd": 0.1435,
+  "error": null
+ },
+ "8": {
+  "id": "d28c29e1",
+  "rating": "Medium",
+  "count_rating": "Medium",
+  "cb": "Medium",
+  "correct": true,
+  "tokens": {
+   "prompt": 7161,
+   "completion": 5294
+  },
+  "cost_usd": 0.1345,
+  "error": null
+ },
+ "9": {
+  "id": "67b59a67",
+  "rating": "Easy",
+  "count_rating": "Easy",
+  "cb": "Medium",
+  "correct": false,
+  "tokens": {
+   "prompt": 13364,
+   "completion": 8208
+  },
+  "cost_usd": 0.2176,
+  "error": null
+ }
+}
