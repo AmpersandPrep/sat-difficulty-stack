@@ -12,7 +12,7 @@ All ratings are exact-band matches against College Board's official difficulty r
 
 ## The stack on the working set of 10
 
-A held-out working set for building (not the test set). Per-item table: `results/working-set-10-ids-and-ratings.md`.
+This is a development/working set for building, not a held-out test: its ratings were visible as items ran. Per-item table: `results/working-set-10-ids-and-ratings.md`.
 
 | Rater | Exact-band score |
 |---|---|
