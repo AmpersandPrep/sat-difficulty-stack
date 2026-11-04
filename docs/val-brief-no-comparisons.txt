@@ -94,5 +94,6 @@ COUNT RATING: <Easy, Medium, or Hard>
 The final rating is the count rating.
 Note (added Nov 4, 2026, after the held-out run): The sentence above, "The final rating is the count rating," was in this brief exactly as the held-out 100 was run, and it is left in place so this file stays an accurate record of that run. It does not state the design intent: Val is meant to start from Hard and weigh the whole packet, with the counterintuitive-element count as one input among several, not the rule that decides the rating. On Nov 3, 2026, the working set was rerun with only this sentence removed: Val's final rating matched her count rating on all 9 items, and the set scored 6 of 9 against 7 of 9 as run. A brief with this sentence removed will be evaluated on a fresh set of 100 questions, not a rerun of the held-out 100.
 RUNNER MECHANICS (these are plumbing, not instructions)
+
 When you have finished, include the COUNT RATING line described above and end your reply with a final line in exactly this shape:
 RATING: <Easy, Medium, or Hard>
