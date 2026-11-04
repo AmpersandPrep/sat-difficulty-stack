@@ -195,8 +195,9 @@ def build_system_prompt():
     return "\n".join(lines)
 
 
+# Nov 4, 2026: introduction fixed — it previously named Reading and Writing for every item, including Math. Reported runs used the earlier version; see Known issues in README.md.
 def build_item_prompt(item):
-    lines = ["Here is one SAT Reading and Writing question. Work on it "
+    lines = ["Here is one SAT question. Work on it "
              "following the instructions you were given.", "",
              item["question"].strip(), ""]
     for L in "ABCD":
