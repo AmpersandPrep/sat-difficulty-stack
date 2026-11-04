@@ -19,15 +19,15 @@ This is a development/working set for building, not a held-out test: its ratings
 | Fresh model (baseline method) | 4 / 10 |
 | Sol (solver alone) | 4 / 10 |
 | Val, comparison version | 5 / 10 |
-| Val, count version (no comparisons) | 7 / 9 run (item 10 not run) |
+| Val, no-comparisons version | 7 / 9 run (item 10 not run) |
 
 ## Item 797a81fb (Algebra / Systems of two linear equations; CB Hard)
 
-The worked example the count method was built on. The comparison version of Val rated it Medium. The count version rated it **Hard**: three distinct, interacting counterintuitive elements. Per-item record: `results/val-no-comparisons-797.json`.
+The worked example the no-comparisons method was built on. The comparison version of Val rated it Medium. The no-comparisons version rated it **Hard**: three distinct, interacting counterintuitive elements. Per-item record: `results/val-no-comparisons-797.json`.
 
-## Where the count version still misses
+## Where the no-comparisons version still misses
 
-Both misses on the working set are College Board Medium items the count version rated Easy with a count of zero (working items 3 and 9). Nothing was overrated. The held-out test of 100 items has since been run and scored; see the held-out section below. Its membership list is not published as a standalone key file.
+Both misses on the working set are College Board Medium items the no-comparisons version rated Easy with a count of zero (working items 3 and 9). Nothing was overrated. The held-out test of 100 items has since been run and scored; see the held-out section below. Its membership list is not published as a standalone key file.
 
 ## The stack on the held-out 100
 
