@@ -21,6 +21,10 @@ This is a development/working set for building, not a held-out test: its ratings
 | Val, comparison version | 5 / 10 |
 | Val, no-comparisons version | 7 / 9 run (item 10 not run) |
 
+## A second working set (set 2)
+
+A second development set of 10 (seed 20261104), run on Nov 3, 2026, before the held-out run. Its first run was invalid and is not reported as a result: Val was handed solver transcripts belonging to other items and scored 7 of 10 on that bad input. Rerun the same morning with the correct transcripts, the no-comparisons version scored 6 of 10. The one flip is instructive: item 10, a College Board Hard, dropped from Hard to Medium with its correct transcript, a case where the transcript signal cut the wrong way.
+
 ## Item 797a81fb (Algebra / Systems of two linear equations; CB Hard)
 
 The worked example the no-comparisons method was built on. The comparison version of Val rated it Medium. The no-comparisons version rated it **Hard**: three distinct, interacting counterintuitive elements. Per-item record: `results/val-no-comparisons-797.json`.
