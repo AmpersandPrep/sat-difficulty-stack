@@ -23,7 +23,7 @@ Full numbers: `results/scoreboard.md`. Headlines:
 
 - Baseline (fresh model, all 3,770 items): 50.8% difficulty accuracy, kappa 0.256. Per-item: `results.csv`.
 - Working set of 10: fresh model 4/10, Sol 4/10, Val (comparison version) 5/10, Val (count version) 7 of the 9 run.
-- A held-out test set of 100 items is reserved for the final measurement and excluded from every lookup and reference pool. results.csv publishes College Board labels and baseline predictions for the full bank; what is withheld is the held-out set's membership list as a standalone key file, along with all question text and run packets. The held-out 100 is a separate, stratified random set (seed 20261102) drawn for the final test and is not any earlier 100-item set mentioned in the docs.
+- A held-out test set of 100 items was excluded from every lookup and reference pool and has now been run and scored: Val matched College Board on 76 of 100 (Cohen's kappa 0.639), against 52 of 100 for the fresh-model baseline on the same items — see results/scoreboard.md. results.csv publishes College Board labels and baseline predictions for the full bank; what is withheld is the held-out set's membership list as a standalone key file, along with all question text and run packets. The held-out 100 is a separate, stratified random set (seed 20261102) drawn for the final test and is not any earlier 100-item set mentioned in the docs.
 
 ## What's here
 
