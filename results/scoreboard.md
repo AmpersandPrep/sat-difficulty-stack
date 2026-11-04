@@ -6,6 +6,7 @@ All ratings are exact-band matches against College Board's official difficulty r
 
 - Difficulty accuracy: **50.8%** (Cohen's kappa 0.256; weighted kappa 0.504; Spearman rho 0.643; mean signed error −0.47, i.e. biased easy)
 - Answer accuracy: 96.6% · Domain: 97.6% · Skill: 93.3%
+- Note: exact string matching reproduces 94.5%; the 96.6% figure uses grid-in / student-produced-response normalization (equivalent forms such as fractions and decimals counted correct), which is not part of the published scoring snippet.
 - Band recall: Easy 91.2% · Medium 38.6% · Hard 20.4%
 - Full per-item results: `results.csv` in this repo. Transcripts were committed before scoring.
 
